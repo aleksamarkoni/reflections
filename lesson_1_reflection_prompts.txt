@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was easy to find the bug, because the diff tool is working for me.
+All I had to do wast to check every change between old and new version of the file,
+and see where the type was.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I could easily find version of the code that was working before and now it does not
+    I could see my progress reaching the end state of the project
+    I could easily roll back to some previous point in time, if needed
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    Git:
+    Pros: 
+       - I can decide what I want to save and when
+       - Having the full control of the process
+    Cons:
+       - The process it self is a bit tedious and error prune, until you dont get used to it
+    Automatic save:
+    Pros:
+       - No need to worry about how data is saved and when
+       - System is working for you all the time
+    Cons:
+       - No working offline, sometimes hard to find diff in previous version, becouse commits 
+         are not logicly connected
+    
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    I think whit Git you save more files at once, so you could have commit that
+represents one thing that you are working on, which can affect diffrent files.
+    With docs, you can edit file at the time and all the changes you do are imidiete.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log is used when you want to see what files are changes. 
+    With git diff you select 2 commits and then compare changes between them
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    You will always have full history of changes, and it will be easy to find a 
+change that breaks something.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    For programing projects
