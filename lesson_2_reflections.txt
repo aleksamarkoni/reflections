@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+   - directory .git is added to the directory that I am currently in.
+   - it stores all the metadate for the git, so it could track files in
+     my directory
+
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+   - Working directory is the directory in which you do all the work, and
+   all the changes to the files are done in the working directory
+   - Staging area, is a place where you put files when you are ready to do
+   a commit. So you need to specify which files you want to add to commit
+   with git add, and then that files are put in staging area. After that
+   when you do commit files from the staging area are saved as a single
+   commit in git repository.
+
