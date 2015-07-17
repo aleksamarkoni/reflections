@@ -13,3 +13,30 @@ repository? What value do you think it offers?
    when you do commit files from the staging area are saved as a single
    commit in git repository.
 
+How can you use the staging area to make sure you have one commit per
+logical change?
+   - You can use staging area with git diff commands, running git diff with
+   no arguments will track changes between content that is in the working
+   directory,
+   and the content that is in th e staging area, while running the command
+   git diff --staged, will compare files that are in the staging area and
+   in the latest commit that you did to the repository.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  - When you want to intoduce new futere into the project, with out braking the project
+  - When you want to make 2 diffrent versions of the project, that are just slightly diffrent
+
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+  - Result of merging two brances together is new commit, who has 2 parents,
+  one parent from the branch that we are merging, and other parent from the
+  branch that we are merging into.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  Automatic:
+   - prons: you dont have to do all the proces your self.
+   - cons: automatic can't do all the merges, sometimes there are situations when computer is not smart enought and does not have required informations to conclude what he needs to do to make a merge
+  Manual
+   - prons: you have full contorol of the process, always know what you want and what to do
+   - cons: tedius and error prone.
